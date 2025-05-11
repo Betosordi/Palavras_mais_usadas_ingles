@@ -1,0 +1,399 @@
+/* cores_organizacao_paginas.css */
+body {
+    background-image: url('estrelas.png'); /* Caminho para a imagem */
+    color: white;
+}
+
+.botao_avancar_1,.botao_avancar_2,.botao_voltar_2,.botao_avancar_3,.botao_voltar_3,.botao_avancar_4,.botao_voltar_4,
+.botao_avancar_5,.botao_voltar_5,.botao_avancar_6,.botao_voltar_6,.botao_avancar_7,.botao_voltar_7,
+.botao_avancar_8,.botao_voltar_8,.botao_avancar_9,.botao_voltar_9,.botao_avancar_10,.botao_voltar_10,
+.botao_avancar_11,.botao_voltar_11,.botao_avancar_12,.botao_voltar_12,.botao_avancar_13,.botao_voltar_13,
+.botao_avancar_14,.botao_voltar_14,.botao_avancar_15,.botao_voltar_15,.botao_avancar_16,.botao_voltar_16,
+.botao_avancar_17,.botao_voltar_17,.botao_avancar_18,.botao_voltar_18,.botao_avancar_19,.botao_voltar_19,
+.botao_avancar_20,.botao_voltar_20,.botao_avancar_21,.botao_voltar_21,.botao_avancar_22,.botao_voltar_22,
+.botao_avancar_23,.botao_voltar_23{
+
+    border-radius: 30px; /* Bordas redondas */
+    border: 5px solid #06f8f4; /* Adiciona uma borda dourada */   
+    background-color: #ffc400; /* Cor de fundo transparente */
+    color: #FFFFFF; /* Cor do texto */
+    width: 80px; /* Largura da imagem */
+    height: 40px; /* Altura da imagem */
+    font-size: 12px; /* Tamanho da fonte */
+    font-family: 'Great Vibes', cursive; /* Fonte elegante */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: block; /* Remove o sublinhado do texto */
+    
+}
+
+/* ============================================================================================================= */
+/* Botões de resposta rápidas */
+.botao_card_1,.botao_card_2,.botao_card_3,.botao_card_4,.botao_card_5,.botao_card_6,.botao_card_7,.botao_card_8,
+.botao_card_9,.botao_card_10,.botao_card_11,.botao_card_12,.botao_card_13,.botao_card_14,
+.botao_card_15,.botao_card_16,.botao_card_17,.botao_card_18,.botao_card_19,.botao_card_20,
+.botao_card_21,.botao_card_22,.botao_card_23,.botao_card_24,.botao_card_25,.botao_card_26,
+.botao_card_27,.botao_card_28,.botao_card_29,.botao_card_30
+{
+
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px; /* Espaçamento interno das células */
+
+}
+
+
+/* DIV */
+.botoes_1,.botoes_2,.botoes_3,.botoes_4,.botoes_5,.botoes_6,.botoes_7,.botoes_8,.botoes_9,.botoes_10,.botoes_11,
+.botoes_12,.botoes_13,.botoes_14,.botoes_15,.botoes_16,.botoes_17,.botoes_18,.botoes_19,.botoes_20,
+.botoes_21,.botoes_22,
+.botoes_23{
+
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px; /* Espaçamento interno das células */
+    
+}
+
+/* ======================================================================================================*/
+
+/* esconder divs */
+/* DIV */
+.botoes_2,.botoes_3,.botoes_4,.botoes_5,.botoes_6,.botoes_7,.botoes_8,.botoes_9,.botoes_10,.botoes_11,
+.botoes_12,.botoes_13,.botoes_14,.botoes_15,.botoes_16,.botoes_17,.botoes_18,.botoes_19,.botoes_20,
+.botoes_21,.botoes_22,
+.botoes_23{
+    display:none;   
+}
+/* ====================================================================================================== */
+
+#vinte_frases,#trinta_frases,#quarenta_frases,#cinquenta_frases,#sessenta_frases,#setenta_frases,
+#oitenta_frases,#noventa_frases,#cem_frases,#cem10_frases,#cem20_frases,#cem30_frases,
+#cem40_frases,#cem50_frases,#cem60_frases,#cem70_frases,#cem80_frases,#cem90_frases,
+#duzentos_frases,#duzentos10_frases,#duzentos20_frases,#duzentos30_frases{
+
+    display:none;   
+
+}
+
+#div_imagem_titulo {
+    display: flex; /* Define o layout flexível */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    
+    gap: 20px; /* Espaçamento entre os elementos */
+}
+
+/* Versiculo */
+#versiculo_h1 {
+    color: #FFD700; /* Cor dourada */
+    background-color: #640d0db9; /* Cor de fundo */
+    font-size: 12px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    font-family: 'Great Vibes', cursive; /* Fonte elegante */
+    border-radius: 15px; /* Bordas redondas */
+    border: 1px solid #FFD700; /* Adiciona uma borda dourada */
+    width: 1050px; /* Largura da div */   
+    height: 110px; /* Altura automática para manter a proporção */
+
+    /* Flexbox para centralizar */
+    display: flex; /* Define o layout flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    
+}
+
+
+/* titulo da pagina */
+#animacao_h1 {
+    color: #FFFFFF; /* Cor do texto */
+    background-color: transparent; /* Cor de fundo transparente */
+    font-size: 15px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+}
+
+#imagem_inicial {
+
+    width: 130px; /* Largura da imagem */
+    height: 110px; /* Altura da imagem */
+    border-radius: 25px; /* Bordas redondas */
+
+}
+
+/* Editando os elementos dessa tag */
+.imagem_inicial {
+    display: flex; /* Define o layout flexível */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    gap: 30px; /* Espaçamento entre os elementos */
+    
+}
+
+
+/* Editando as imagens nessa classe, tamanhos e bordas */
+.imagem_inicial img {
+    width: 130px; /* Largura da imagem */
+    height: 110px; /* Altura da imagem */
+    border-radius: 25px; /* Bordas redondas */
+    gap: 30px; /* Espaçamento entre os elementos */
+    align-items: center;  
+      
+}
+
+/* titulo da pagina */
+#animacao_h2 {
+    color: #FFFFFF; /* Cor do texto */
+    background-color: transparent; /* Cor de fundo transparente */
+    font-size: 15px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    border-radius: 20px; /* Bordas redondas */
+    border: 1px solid #141413; /* Adiciona uma borda dourada */
+}
+
+/* titulo da pagina */
+#animacao_h3 {
+    color: #FFFFFF; /* Cor do texto */
+    background-color: transparent; /* Cor de fundo transparente */
+    font-size: 15px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    border-radius: 20px; /* Bordas redondas */
+    border: 1px solid #141413; /* Adiciona uma borda dourada */
+}
+
+/* titulo da pagina */
+#ex_verbo_to_be{
+    color: #FFFFFF; /* Cor do texto */
+    background-color: transparent; /* Cor de fundo transparente */
+    font-size: 13px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    
+    color:#d0fb9c; /* Cor azul claro */ 
+
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), /* Sombra para efeito metálico */
+    0 0 10px rgba(137, 207, 240, 0.7), 
+    0 0 15px rgba(137, 207, 240, 0.9)
+}
+
+
+/* Estilo para a tela escura */
+#tela_estrelas {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('estrelas.png'); /* Caminho para a imagem */
+z-index: 9999;
+display: none; /* Inicialmente escondida */
+}
+
+
+/* Estilo para a tabela */
+table{
+width: 100%; /* Largura da tabela */
+border-collapse: collapse; /* Remove espaços entre as células */
+font-size: 11px; /* Tamanho da fonte */
+}
+
+
+/* Estilo para as células da tabela */
+th, td{
+border: 1px solid rgb(190, 18, 18); /* Borda das células */
+padding: 8px; /* Espaçamento interno das células */
+text-align: center; /* Alinhamento do texto no centro */
+/*border-radius: 20px; /* Bordas redondas */
+font-size: 11px; /* Tamanho da fonte */
+}
+
+/* Estilo para as linhas da tabela */
+
+
+
+/* Estilo para os cabeçalhos da tabela */
+th {
+ background-color: #072ff4; /* Cor de fundo dos cabeçalhos */
+ font-size: 11px; /* Tamanho da fonte */
+ /*border-radius: 20px;  Bordas redondas */
+}
+
+/* Estilo para os cabeçalhos da tabela */
+#linhas_conteudo{
+    background-color: transparent; /* Cor de fundo transparente */
+    
+   }
+
+/* Cores e estilo dos quadros de preencher*/
+#linha_1, #linha_2, #linha_3, #linha_4, #linha_5, #linha_6, #linha_7{
+    border-radius: 7px; /* Bordas redondas */
+    border: 5px solid #e0c735; /* Adiciona uma borda dourada */
+}
+
+/* ============================================================================================================= */
+
+/* Estilo para os botões de resposta ****************************************************************************/
+@keyframes piscar {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#resposta_correta1,#resposta_correta2,#resposta_correta3,
+#resposta_correta4,#resposta_correta5,#resposta_correta6,
+#resposta_correta7,#resposta_correta8,#resposta_correta9,
+#resposta_correta10,#resposta_correta11,#resposta_correta12,
+#resposta_correta13,#resposta_correta14,#resposta_correta15,
+#resposta_correta16,#resposta_correta17,#resposta_correta18,
+#resposta_correta19,#resposta_correta20,#resposta_correta21,
+#resposta_correta22,#resposta_correta23,#resposta_correta24,
+#resposta_correta25,#resposta_correta26,#resposta_correta27,
+#resposta_correta28,#resposta_correta29,#resposta_correta30
+{
+    color: #00ff00; /* Cor do texto */
+    border: none; /* Remove as linhas ao redor */
+    width: 1%; /* Ajusta a largura para 1% do elemento pai */
+    height: 1px; /* Ajusta a altura para 1 pixel */
+    font-family: 'Great Vibes', cursive; /* Fonte elegante */
+    animation: piscar 1s infinite; /* Animação de piscar */ 
+    font-size: 13px; /* Tamanho da fonte */   
+}
+
+#resposta_incorreta1,#resposta_incorreta2,#resposta_incorreta3,
+#resposta_incorreta4,#resposta_incorreta5,#resposta_incorreta6,
+#resposta_incorreta7,#resposta_incorreta8,#resposta_incorreta9,
+#resposta_incorreta10,#resposta_incorreta11,#resposta_incorreta12,
+#resposta_incorreta13,#resposta_incorreta14,#resposta_incorreta15,
+#resposta_incorreta16,#resposta_incorreta17,#resposta_incorreta18,
+#resposta_incorreta19,#resposta_incorreta20,#resposta_incorreta21,
+#resposta_incorreta22,#resposta_incorreta23,#resposta_incorreta24,
+#resposta_incorreta25,#resposta_incorreta26,#resposta_incorreta27,
+#resposta_incorreta28,#resposta_incorreta29,#resposta_incorreta30
+{
+    color: #ff0000;/* Cor do texto */
+    border: none; /* Remove as linhas ao redor */
+    width: 1%; /* Ajusta a largura para 1% do elemento pai */
+    height: 1px; /* Ajusta a altura para 1 pixel */
+    font-family: 'Great Vibes', cursive; /* Fonte elegante */
+    animation: piscar 1s infinite; /* Animação de piscar */
+    font-size: 13px; /* Tamanho da fonte */
+}
+/* ============================================================================================================= */
+
+/* Exercicios de 1 a 10 imputs*/
+#questao_1,#questao_2,#questao_3,#questao_4,#questao_5,#questao_6,#questao_7,#questao_8,#questao_9,#questao_10,
+#questao_11,#questao_12,#questao_13,#questao_14,#questao_15,#questao_16,#questao_17,#questao_18,#questao_19,#questao_20,
+#questao_21,#questao_22,#questao_23,#questao_24,#questao_25,#questao_26,#questao_27,#questao_28,#questao_29,#questao_30
+
+{
+
+    padding: 5px; /* Espaçamento interno das células */
+    text-align: center; /* Alinhamento do texto no centro */
+    border-radius: 10px; /* Bordas redondas */
+    width: 85%; /* Largura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    font-size: 11px; /* Tamanho da fonte */
+
+}
+
+
+/* Linhas dos exercicios primeira tabela */
+#ex1_escrita_1,#ex1_pronuncia_1,#ex1_traducao_1,
+#ex1_escrita_2,#ex1_pronuncia_2,#ex1_traducao_2,
+#ex1_escrita_3,#ex1_pronuncia_3,#ex1_traducao_3,
+#ex1_escrita_4,#ex1_pronuncia_4,#ex1_traducao_4,
+#ex1_escrita_5,#ex1_pronuncia_5,#ex1_traducao_5,
+#ex1_escrita_6,#ex1_pronuncia_6,#ex1_traducao_6,
+#ex1_escrita_7,#ex1_pronuncia_7,#ex1_traducao_7,
+#ex1_escrita_8,#ex1_pronuncia_8,#ex1_traducao_8,
+#ex1_escrita_9,#ex1_pronuncia_9,#ex1_traducao_9,
+#ex1_escrita_10,#ex1_pronuncia_10,#ex1_traducao_10{
+
+    padding: 5px; /* Espaçamento interno das células */
+    text-align: center; /* Alinhamento do texto no centro */
+    border-radius: 10px; /* Bordas redondas */
+    width: 85%; /* Largura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    font-size: 11px; /* Tamanho da fonte */
+
+}
+/* ============================================================================================================= */
+
+/* Estilo para as células da tabela */
+.comprovar_1, .comprovar_2, .comprovar_3, 
+.comprovar_4, .comprovar_5, .comprovar_6, 
+.comprovar_7, .comprovar_8, .comprovar_9, 
+.comprovar_10,.comprovar_11, .comprovar_12, 
+.comprovar_13, .comprovar_14, .comprovar_15, 
+.comprovar_16, .comprovar_17, .comprovar_18, 
+.comprovar_19, .comprovar_20,.comprovar_21, 
+.comprovar_22, .comprovar_23, .comprovar_24, 
+.comprovar_25, .comprovar_26, .comprovar_27, 
+.comprovar_28, .comprovar_29, .comprovar_30
+{
+    border: 1px solid rgb(190, 18, 18); /* Borda das células */
+    padding: 8px; /* Espaçamento interno das células */
+    
+}
+
+/* Imagens para dicas */
+#dica_imagem{
+    width: 80px; /* Largura da imagem */
+    height: 80px; /* Altura automática para manter a proporção */
+    border-radius: 10px; /* Bordas redondas */
+}
+
+/* ============================================================================================================= */
+/* Perguntas  */
+.prova_1{
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    gap: 10px; /* Espaçamento entre os elementos */
+    border-radius: 50px; /* Bordas redondas */
+}
+
+/* ============================================================================================================= */
+/* Cabeçalho */
+#cabecalho_perguntas{
+
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    gap: 10px; /* Espaçamento entre os elementos */
+    width: 100%; /* Largura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    font-size: 11px; /* Tamanho da fonte */
+    
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: center; /* Alinhamento do texto no centro */
+    background-color: #00f2fffb; /* Cor de fundo dos cabeçalhos */
+}
+/* ============================================================================================================= */
+#menu{
+
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    gap: 10px; /* Espaçamento entre os elementos */
+    width: 100%; /* Largura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    font-size: 11px; /* Tamanho da fonte */
+    
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: center; /* Alinhamento do texto no centro */
+}
+
+.central_1,.central_2,.central_3,.central_4,.central_5,.central_6,.central_7,.central_8,.central_9,.central_10,
+.central_11,.central_12,.central_13,.central_14,.central_15,.central_16,.central_17,.central_18,.central_19,.central_20,
+.central_21,.central_22,.central_23,.central_24,.central_25,.central_26,.central_27,.central_28,.central_29,.central_30
+{
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 10px; /* Espaçamento entre os elementos */
+    width: 30%; /* Define a largura da div (ajuste conforme necessário) */
+    max-width: 600px; /* Define uma largura máxima */
+    height: auto; /* Altura automática */
+    padding: 20px; /* Espaçamento interno */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    color: rgb(230, 100, 7);
+    
+}
